@@ -1,0 +1,11 @@
+immutable_var = 1, 2, "Среда", "Июль"
+print(immutable_var)
+print(immutable_var[3])
+#immutable_var[3] = 'Июнь'
+#Кортеж является неизменяемым, поэтому мы видим ошибку, что нельзя заменить строку Июль на Июнь
+
+mutable_list = ['День рождение', 12, 'Май', 1995]
+print(mutable_list)
+mutable_list[1] = 15
+mutable_list[3] = 1986
+print(mutable_list)
